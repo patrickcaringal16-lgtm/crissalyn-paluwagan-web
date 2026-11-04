@@ -1,0 +1,18 @@
+CRISSALYN PALUWAGAN - iPhone web app (no Apple Developer account needed)
+
+In Safari, open the HTTPS website. Tap Share > Add to Home Screen > Add.
+If you do not see Add to Home Screen, scroll the share menu and select Edit Actions.
+Launch the PALUWAGAN icon from the iPhone Home Screen.
+First use: create your own 6-12 digit PIN, then create members and groups.
+Backup: Settings & Backup > Export JSON Backup after each working session.
+Keep the JSON file in an access-controlled secure location; exported files are not encrypted.
+If using the older pink app, export records FROM that app first and import the JSON in this app.
+
+IMPORTANT:
+- This is a browser PWA, not a signed native IPA or Apple TestFlight app.
+- Records stay in this device/browser's storage and are not cloud-synchronized.
+- The PIN is only a screen lock; saved records are not encrypted at rest.
+- Safari/iOS may remove local website storage; saved backups are vital.
+- Do not store bank passwords, identity-document images or sensitive member records.
+- For production financial use, a secure encrypted, backed-up backend or native signed release is recommended.
+- Test on actual client iPhone with dummy amounts before delivering for real-world operations.
